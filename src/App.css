@@ -1,5 +1,14 @@
+.scroll::-webkit-scrollbar-thumb, body::-webkit-scrollbar-thumb {
+  background-color: #222a35;
+  border-radius: 5px;
+}
+.scroll::-webkit-scrollbar, body::-webkit-scrollbar {
+  width: 6px;
+  background-color: #637488;
+}
 .App {
   text-align: center;
+  color: white;
 }
 
 .App-logo {
@@ -26,6 +35,47 @@
 
 .App-link {
   color: #61dafb;
+}
+.m{
+  border-bottom: 3px solid #e11d48;
+  color: #fff;
+  font-size: 25px;
+  width: 10%;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+}
+.m1{
+  border-bottom: 3px solid #e11d48;
+  color: black;
+  font-size: 25px;
+  width: 13%;
+  font-weight: 600;
+  margin: auto;
+  text-align: center;
+}
+.dark{
+  /* background-color: #48917d; */
+  background-color: #0d1117;
+  /* 'linear-gradient(180deg, hsla(138, 36%, 89%, 1) 0%, hsla(138, 36%, 89%, 1) 49%, hsla(151, 52%, 81%, 1) 100%)' */
+}
+.text{
+  color: white;
+}
+.logo{
+  background-color: black;
+}
+.logo1{
+  background-color: black;
+}
+.navbox{
+  background-color: black;
+  color: #868d96;
+}
+.projectbox{
+border-radius: 15px;
+  background-color: #1a1e24;
+  /*  */
 }
 
 @keyframes App-logo-spin {

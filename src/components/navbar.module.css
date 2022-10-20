@@ -1,0 +1,16 @@
+.body{
+    color:  #848588
+    /* color: rgb(219, 217, 217); */
+
+}
+.gr{
+    background: hsla(151, 52%, 81%, 1);
+
+background: linear-gradient(180deg, hsla(151, 52%, 81%, 1) 0%, hsla(157, 50%, 57%, 1) 49%, hsla(159, 100%, 33%, 1) 100%);
+
+background: -moz-linear-gradient(180deg, hsla(151, 52%, 81%, 1) 0%, hsla(157, 50%, 57%, 1) 49%, hsla(159, 100%, 33%, 1) 100%);
+
+background: -webkit-linear-gradient(180deg, hsla(151, 52%, 81%, 1) 0%, hsla(157, 50%, 57%, 1) 49%, hsla(159, 100%, 33%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#B4E7CE", endColorstr="#5CC89F", GradientType=1 );
+}
